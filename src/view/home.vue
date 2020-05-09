@@ -129,9 +129,9 @@ import beautifier from 'beautifier'
 // clipboard.js 是一个不需要flash，将文本复制到剪贴板的插件
 import ClipboardJS from 'clipboard'
 import render from '@/components/render/render'
-// import FormDrawer from './FormDrawer'
-// import JsonDrawer from './JsonDrawer'
-// import RightPanel from './RightPanel'
+import FormDrawer from './FormDrawer'
+import JsonDrawer from './JsonDrawer'
+import RightPanel from './RightPanel'
 import {
   inputComponents, selectComponents, layoutComponents, formConf
 } from '@/components/generator/config'
