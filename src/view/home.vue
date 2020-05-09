@@ -91,7 +91,7 @@
       </el-scrollbar>
     </div>
 
-    <!-- <right-panel
+    <right-panel
       :active-data="activeData"
       :form-conf="formConf"
       :show-field="!!drawingList.length"
@@ -109,7 +109,7 @@
       :visible.sync="jsonDrawerVisible"
       :json-str="JSON.stringify(formData)"
       @refresh="refreshJson"
-    /> -->
+    />
     <code-type-dialog
       :visible.sync="dialogVisible"
       title="选择生成类型"
@@ -162,9 +162,9 @@ export default {
   components: {
     draggable,
     render,
-    // FormDrawer,
-    // JsonDrawer,
-    // RightPanel,
+    FormDrawer,
+    JsonDrawer,
+    RightPanel,
     CodeTypeDialog,
     DraggableItem
   },

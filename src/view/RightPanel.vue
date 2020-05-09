@@ -585,6 +585,7 @@ import { isNumberStr } from '@/utils/index'
 import IconsDialog from './IconsDialog'
 import { inputComponents, selectComponents, layoutComponents } from '@/components/generator/config'
 import { saveFormConf } from '@/utils/db'
+import draggable from 'vuedraggable'
 
 const dateTimeFormat = {
   date: 'yyyy-MM-dd',
@@ -600,7 +601,8 @@ const dateTimeFormat = {
 export default {
   components: {
     TreeNodeDialog,
-    IconsDialog
+    IconsDialog,
+    draggable
   },
   props: ['showField', 'activeData', 'formConf'],
   data() {
